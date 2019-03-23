@@ -15,8 +15,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var powerBtn: UIButton!
     @IBOutlet weak var cloudHolder: UIView!
     @IBOutlet weak var rocket: UIImageView!
-    @IBOutlet weak var hustleLbl: UILabel!
-    @IBOutlet weak var onLbl: UILabel!
+    @IBOutlet weak var finishedLbl: UILabel!
+    
     
     var player: AVAudioPlayer!
     
@@ -49,8 +49,7 @@ class ViewController: UIViewController {
         UIView.animate(withDuration: 2.3, animations: {
             self.rocket.frame = CGRect(x:0, y:120, width:375, height:402)
         }) { (finished) in
-            self.hustleLbl.isHidden = false
-            self.onLbl.isHidden = false
+            self.finishedLbl.isHidden = false
         }
     }
     
