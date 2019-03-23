@@ -42,17 +42,10 @@
                                         <rect key="frame" x="0.0" y="183" width="375" height="502"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HUSTLE MODE:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Vt-Ak-R3F">
-                                        <rect key="frame" x="98" y="394" width="178" height="39"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IT'S NOT ROCKET SCIENCE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0qt-p4-H9U">
+                                        <rect key="frame" x="58" y="478" width="258" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ON" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3kN-GG-ueX">
-                                        <rect key="frame" x="98" y="449" width="178" height="80"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="64"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -66,8 +59,7 @@
                     <connections>
                         <outlet property="cloudHolder" destination="NsL-Hn-AMB" id="TKH-Rw-iED"/>
                         <outlet property="darkBlueBG" destination="wOY-jv-55i" id="5mf-MD-pGg"/>
-                        <outlet property="hustleLbl" destination="6Vt-Ak-R3F" id="EzG-o3-8rA"/>
-                        <outlet property="onLbl" destination="3kN-GG-ueX" id="aAM-Sx-eRI"/>
+                        <outlet property="finishedLbl" destination="0qt-p4-H9U" id="8ed-aO-oYQ"/>
                         <outlet property="powerBtn" destination="JrG-dE-PbV" id="24h-gI-geE"/>
                         <outlet property="rocket" destination="4fE-qa-y4W" id="KXK-sn-gUN"/>
                     </connections>
